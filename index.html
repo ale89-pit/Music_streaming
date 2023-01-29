@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iscrizione Musci_streaming</title>
+</head>
+<body>
+    <h1>Completa la tua registrazione</h1>
+    <form onsubmit="alert('Form inviato')">
+        <div>
+            <p>Nome utente</p>
+            <input type="text" placeholder="inserisci nome"/>
+        </div>
+        <div>
+            <p>Cognome Utente</p>
+            <input type="text" placeholder="inserisci cognome"/>
+        </div>
+        <div>
+            <p>Indirizzo Email</p>
+            <input type="email" placeholder="inserisci email"/>
+        </div>
+        <div>
+            <p>Password</p>
+            <input type="password" />
+        </div>
+        <div>
+            <p>Data di nascita</p>
+            <input type="date" />
+        </div>
+        <div>
+            <p>Telefono</p>
+            <input type="tel"/>
+        </div>
+        <div >
+            <p>Selezioni i tuoi gusti musicali</p>
+            <div style="display:flex">
+            <p>Rock</p><input type="checkbox"/>
+            <p>Pop</p><input type="checkbox"/>
+            <p>Indie</p><input type="checkbox"/>
+            <p>Classica</p><input type="checkbox"/>
+            <p>Jazz</p><input type="checkbox"/>
+        </div>
+        </div>
+        <div>
+            <p>Accetazione termini e condizioni</p>
+            <div style="display: flex;">
+            <input type="radio"><p>Accetta condizioni</p>
+            <input type="radio"><p>Non Accetto</p>
+        </div>
+        </div>
+        <div>
+            <button type="submit" onclick="alert('dati salvati')">Invia</button> 
+        </div>
+    </form>
+</body>
+</html>
